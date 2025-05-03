@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ========================================================
+               Common CSS Start
+========================================================*/
+
+.container{
+
+    width: 1270px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+  
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+
+
+
+/* ========================================================
+               Common CSS End
+======================================================== */
+/* ========================================================
+               Navbar CSS Start
+======================================================== */
+nav{
+    background-color: #FAE3B6;
+    padding: 50px 0px;
+}
+nav .box{
+    align-items: center;
+}
+nav .logo-part{
+    width: 20%;
+
+
+}
+nav .menu-part{
+    width: 60%;
+
+
+}
+
+
+nav .menu-part ul{
+    display: flex;
+    column-gap: 59px;
+    justify-content: center;
+}
+nav .menu-part ul li a{
+    color:#000000;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+nav .button-part {
+    width: 20%;
+    text-align: right;
+
+
+
+
+}
+
+nav .button-part a{
+    color: #050505;
+    background: #FDBB57;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 1px solid transparent;
+   
+
+
+
+}
+nav .button-part a:hover{
+    background:#FAE3B6;
+    border-color:  rgb(241, 158, 158);
+   
+ 
+
+   
+   
+}
+
+
+
+
+/* ========================================================
+               Navbar CSS End
+======================================================== */
