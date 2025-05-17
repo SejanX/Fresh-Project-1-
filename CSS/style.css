@@ -103,7 +103,7 @@ nav .button-part a:hover{
 ======================================================== */
 
 /* ========================================================
-             Banner  CSS End
+             Banner  CSS Start
 ======================================================== */
 .Banner{
     background-color: #FAE3B6;
@@ -150,6 +150,151 @@ nav .button-part a:hover{
 
 
 
+
 /* ========================================================
-               Banner CSS Start
+               Banner CSS End
+======================================================== */
+/* ========================================================
+               Collection CSS Start
+======================================================== */
+
+
+
+.Collection{
+    padding-top: 217px;
+    padding-bottom: 28px;
+    
+    
+}
+
+.Collection h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 28px;
+    
+    
+}
+.Collection .box{
+    justify-content: space-between;
+}
+.Collection .card{
+    width: 349px;
+    height: 402px;
+    position: relative;
+    overflow: hidden; 
+    margin-top: 73px;
+    
+ 
+}
+
+.Collection .card .overlay{
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    top: 100% ;
+    left: 0;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Collection .card .Baskets{
+     width: 100%;
+    height: 100%;
+}
+.Collection .card .overlay a{
+    background-color: white;
+    padding: 10px 108px;
+    border-radius: 10px;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+}
+.Collection .card:hover .overlay{
+    top: 125px;
+}
+
+
+/* ========================================================
+               Collection CSS End
+======================================================== */
+
+/* ========================================================
+               Fashion CSS Start
+======================================================== */
+
+.Fashion .left{
+    width: 50%;
+    
+  
+}
+.Fashion .left img{
+    width: 100%;
+    padding-top: 87px;
+}
+
+.Fashion .right{
+    width: 50%;
+ 
+}
+.Fashion .box{
+    position: relative;
+}
+
+
+
+.Fashion .right h2{
+    font-weight: 700;
+    font-size: 64px;
+    font-family:  "Frank Ruhl Libre", serif;
+    color: #000000;
+     width: 400px;
+     padding: 206px  95px 63px 35px;
+}
+.Fashion .right p{
+    font-weight: 600;
+    font-size: 24px;
+    font-family:  "Poppins", sans-serif;
+    color: #000000;
+    width: 400px;
+    padding-left: 35px;
+}
+.info-box{
+    width: 793px;
+    padding: 66px 0px 71px 0px;
+    display: flex;
+    background-color: #FEECC8;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -164px;
+    right: 0;
+    z-index: -1;
+   
+}
+.info-box h4{
+    font-weight: 700;
+    font-size: 64px;
+    font-family: "Podkova", serif;
+    color: #000000;
+}
+.info-box p{
+    font-weight: 600;
+    font-size: 28px;
+    font-family:  "Poppins", sans-serif;
+}
+.info-box .mini-box{
+    border-right: 1px solid black;
+    padding-right: 27px;
+}
+.info-box .mini-box:last-child{
+    border-right: 0px;
+}
+/* ========================================================
+               Fashion CSS End
 ======================================================== */
